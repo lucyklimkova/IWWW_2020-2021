@@ -1,0 +1,41 @@
+body {
+  font-family:Palatino Linotype;
+  margin: 0 250px;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+article h2 {
+  margin-bottom: 0px;
+  margin-top: 35px;
+}
+
+section h3 {
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+
+section h4 {
+  margin-top: 2px;
+  margin-bottom: 0px;
+  color: green;
+}
+section p {
+  margin-top: 3px;
+}
+
+section ul {
+  margin-top: 5px;
+}
+section li {
+  margin-top: 4px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
