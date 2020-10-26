@@ -1,0 +1,151 @@
+body {
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	font-family: 'Trebuchet MS';
+}
+
+nav {
+	background-color:  #00004d;
+	height: 50px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-align: center;
+	font-weight: bold;
+	padding: 16px 20px;
+	color:  #FFFFFF;
+	text-decoration: none;
+	display: block;
+}
+
+nav ul li a:hover {
+	background-color: #4ddbff;
+	color: #FFFFFF;
+}
+
+.hlavniNadpis {
+	font-size: 50px;
+	margin: 0;
+	padding-top: 350px;
+	color: white;
+	text-shadow: 0px 0px 10px black;
+
+}
+
+#uvodni-obrazek {
+	text-align: center;
+	background-image: url("img/marvel.jpg");
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.obsah {
+	width: 65%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.obsah-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.nahled-obrazku {
+	padding-top: 25px;
+	margin-top: 12px;
+	width: 35%;
+	text-align: center;
+}
+
+.nahled-obrazku .popisek {
+	display: inline;
+}
+
+.nahled-obrazku:hover {
+	box-shadow: 5px 5px 10px 0px #8a8a8a;
+}
+
+.nahled-obrazku img {
+	width: 95%;
+	height: 72%;
+}
+
+
+footer {
+	height: 50px;
+	background-color: #00004d;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+footer p {
+	padding: 0px 5px;
+	color: white;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover {
+	color: #4ddbff;
+}
+
+.obrazek {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.obrazek img {
+	width: 100%;
+}
+
+form {
+	text-align: justify;
+}
+
+form input {
+	margin-left: 1rem;
+}
+
+form button {
+	margin: 5px 0px 0px 241px;
+	padding: 3px;
+	border-color: #8a8a8a;
+	border-width: 2px;
+	border-radius: 3px;
+}
+
+form label {
+	font-weight: bold;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	width: 30%;
+	padding: 5px 0px 5px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+	.nahled-obrazku {
+		width: 100%;
+	}
+}
