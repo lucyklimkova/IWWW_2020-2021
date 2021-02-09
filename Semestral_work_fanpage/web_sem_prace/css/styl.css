@@ -1,0 +1,425 @@
+body {
+	background: #8fa3a4 url("../obrazky/pozadi1.png");
+	margin: 70px 0 0 0;
+	font: 14px Arial;
+	width: 100%;
+  height: 100%;
+}  
+
+/*Obsah stránky*/ 
+#obsah {  
+	width: 800px;
+	float: left; 
+	background: white;
+	border: 1px solid black;
+	box-shadow: 2px 2px 4px #1c2228;
+	padding: 20px;
+    margin: 0 0 50px 10px;
+}
+
+/* Navigace*/
+nav {
+	height: 70px;
+	position: fixed;
+	top: 0;
+	background: #1a355e url("../obrazky/pozadi_sede.png");
+	width: 100%;
+    border-bottom: solid black 1px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+    display: inline-block;
+    margin-right: 1px;
+}
+nav ul li a {
+    display: block;
+    font: normal bold 16px "Century Gothic";
+    color: white;
+    text-align: center;
+    line-height: 75px;
+    height: 70px;
+    min-width: 90px;
+    text-decoration: none;
+} 
+ul li a:hover {
+    background-color: #2792D7;
+}
+#centrovac {
+    background: #8fa3a4 url("../obrazky/pozadi.png");
+    padding: 15px 15px;
+	margin: 0 auto;
+	width: 960px;
+}
+
+/*Patička stránky */
+#footer {
+ 	font: 14px "Century Gothic";
+    color: white;
+ 	height: 30px;
+	position: fixed;
+	bottom: 0;
+    border-top: solid black 1px;
+	background: url('../obrazky/pozadi_sede.png') #1c2228;
+	width: 100%;
+}   
+#paticka {
+  margin: 5px;
+}
+
+/*Nadpisy */
+h1 {
+	font: normal 1.8em Arial;
+	color: black;
+	text-align: center;
+	text-shadow: 1px 1px 1px #52ccf9;
+} 
+h4  {
+  text-align: center;
+  color: black;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+/*Zobrazení div*/
+div {
+  word-wrap: break-word;    
+  overflow-wrap: break-word;
+}
+
+/*Tlačítka*/
+.button {
+    background-color: #008CBA;
+    color: white;                                                
+    padding: 8px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border: none;
+    border-radius: 8px;
+}
+.tlacitko {
+    background-color: #008CBA;
+    color: white;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border: none;
+    border-radius: 8px;
+    margin: 4px 3px 3px;
+}
+.button3 {
+    background-color: white;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: black; 
+    font-size: 12px;
+    border-radius: 8px;
+    border: 1px solid #1c45dd;
+    margin-bottom: 4px;
+}
+.button3:hover {
+    background-color: #1c45dd;
+    color: white;
+}
+.button2 {
+    background-color: #1c45dd;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white; 
+    font-size: 12px;
+    border-radius: 8px;
+    border: 1px solid #1337bf;
+    margin-bottom: 4px;
+}
+.button2:hover {
+    background-color: #1337bf;
+    color: white;
+} 
+
+/* Výpis errorů a úspěšných hlášek*/
+.error {
+  padding: 4px; 
+  margin: 2px;
+  border: 1px solid red; 
+  color: red;
+ } 
+.vypis {
+  padding: 4px; 
+   margin: 2px;
+  border: 1px solid green; 
+  color: green;
+ }
+ 
+/*Logo webu*/
+#logo {
+	background: url('../obrazky/logo.png') no-repeat;
+	width: 250px;
+	height: 70px;
+	float: left;
+	margin: 2px 5px 0 9px;
+}
+/* Výpis novinek*/
+.news-box {
+  width: 500px;
+  padding: 8px;  
+}
+.news-box h3 {
+  font-size: 20px;
+  color: #008CBA;
+  margin: 8px 0 8px 0;
+}
+.news-box p {
+  font-size: 12px;
+  color: #555;  
+}
+.news-box span {
+  font-size: 12px;
+  color: #555;  
+}
+.news-box a {
+  text-decoration: none;
+  color: white;
+}
+
+/*Výpis epizod*/
+.ep { 
+  list-style-type: none;
+  display: list-item;
+  margin: 0 0 40px 0;
+}
+.epizody {
+  display: block;
+  margin: 0 20px 0 180px;
+  width:  600px;
+  padding: 2px;
+}
+
+.epizody h3 {     
+  font-size: 20px;
+  color: #008CBA;  
+}
+.epizody span{
+  font-size: 12px;
+  color: #555;     
+}
+.epizody p {
+  font-size: 12px;
+  color: #555;     
+}
+.epizody a {
+  text-decoration: none;
+  color: white;   
+}
+.img-box {
+  display: block;
+  margin: 27px 10px 0 5px;
+  padding-left: 0;
+  float: left;
+  width: 150px;
+  height: 130px;
+  border-radius: 6px;
+  border: 1px solid #008CBA;
+}
+
+/*Výpis herců a postav */
+.postavy {
+  display: block;
+  margin: 0 20px 0 200px;
+  width:  600px;
+  padding: 2px;
+}
+.pic {
+  display: block;
+  margin-left: 5px;
+  padding-left: 0;
+  float: left;
+  width: 190px;
+  height: 220px;
+  border-radius: 6px;
+  border: 1px solid #008CBA;
+}
+
+/* Ostatní zarovnání, výpisy*/
+.centrovany  {
+ text-align: center;
+}
+.right {
+ float: right;
+}
+.sezona {
+ overflow: hidden;
+ list-style-type: none;
+}
+.li {
+  float: left;
+  display: inline-block;
+  margin-right: 1px;
+}
+a:link, a:visited {
+text-decoration: none
+}
+
+
+/*Styly tabulek*/
+table {
+  border: solid black 1px;
+  text-align: center;
+  background-color: #edf2ef;
+}
+.table {
+  width: 70%;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+.t1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.left {
+  text-align: left;
+}
+.tr1 {
+  text-align: center;
+  padding: 10px;
+  height: 15px;
+}
+.tr {  
+  border: solid black 1px;
+}
+th, td, tr {
+  text-align: center;
+  padding: 15px;
+}
+th {
+  background-color: #2792D7;
+  color: white;
+}
+.radek {
+  background-color: #cccecd;
+  text-align: right;
+}
+
+/* Řešení zobrazení na mobilu */
+li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 13px;                              
+}
+.show-menu {
+    font-family: "Century Gothic", serif;
+    font-size: 18px;
+    text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background-color: #1c2228;
+    height: 70px;
+    display: none;
+}
+ 
+input[type=checkbox]{
+  display: none;
+}
+input[type=checkbox]:checked ~ #menu{
+  display: block;
+}
+
+/* Media pravidla */
+@media screen and (max-width : 1000px){
+nav ul { 
+	display: none;
+}
+nav  ul li {
+	margin-bottom: 0;
+}
+nav  ul li, nav ul li a {
+	width: 100%;
+  background-color: #1c2228;
+  border-bottom: solid black 1px;
+  font-size: 12px;
+  height: 48px;
+}
+.show-menu {
+  display: block;
+  position: relative;
+}
+#logo {
+	display: none;
+}
+.pic, .img-box   {
+  width: 100px;
+  height: 100px;
+  float: none;
+  margin-bottom: 30px;
+}
+
+.postavy, .epizody {
+  margin: 0 20px 0 10px;
+}
+
+table {
+  display: none;
+}
+
+#obsah, #centrovac, #footer, .news-box, .ep, .postavy, .t1, .table, .epizody {
+  width: 800px;
+ }
+}
+
+@media (max-width: 800px) {
+	#obsah, #centrovac, iframe, #footer, .news-box, .ep, .postavy, .t1, .table, .epizody {
+		width: 700px;
+	}
+}
+@media (max-width: 700px) { 
+	#obsah, #centrovac, iframe, #footer, .news-box, .ep, .postavy, .t1, .table, .epizody {
+	}
+}
+@media (max-width: 600px) { 
+ 	#obsah, #centrovac, iframe, #footer, .news-box, .ep, .postavy, .t1, .table, .epizody  {
+		width: 500px;
+	}
+}
+@media (max-width: 500px) { 
+	#obsah, #centrovac, iframe, #footer, .news-box, .ep, .postavy, .t1, .table, .epizody {
+		width: 400px;
+	}
+}
+@media (max-width: 400px) { 
+	#obsah, #centrovac, iframe, #footer, .news-box, .ep, .postavy, .t1, .table, .epizody {
+		width: 300px;
+	}
+}
+@media (max-width: 300px) { 
+ 	#obsah, #centrovac, iframe, #footer, .news-box, .ep, .postavy, .t1, .table, .epizody  {
+		width: 200px;
+	}
+}
+
+@media print {
+    nav {
+        display: none;
+    }
+    #footer {
+        display: none;
+    }
+    header {
+        display: none;
+    }
+}

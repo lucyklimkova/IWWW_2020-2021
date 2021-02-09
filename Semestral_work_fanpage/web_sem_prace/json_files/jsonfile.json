@@ -1,0 +1,5 @@
+[
+	{"id_novinky":1, "popisek":"Novinka 1", "nadpis":"Novinka", "obsah":"Novinka", "uzivatel":13},
+  {"id_novinky":5, "popisek":"Novinka 5", "nadpis":"Novinka", "obsah":"Novinka", "uzivatel":13},
+  {"id_novinky":6, "popisek":"Novinka 6", "nadpis":"Novinka", "obsah":"Novinka", "uzivatel":13}
+]
