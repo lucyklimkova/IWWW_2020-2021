@@ -22,7 +22,7 @@ $nazev = $ang_nazev = $popis = $sezona = $epizoda = "";
      $popis = $row["popis"];
      $sezona = $row["sezona"];
      $epizoda = $row["epizoda"];
-     echo "<img src='/Muj%20web/obrazky/epizody/$obrazek' class='img-box' alt='obrazek'>";
+     echo "<img src='obrazky/epizody/$obrazek' class='img-box' alt='obrazek'>";
  ?>
     <div class="postavy">
         <h2><?php echo $nazev; ?></h2>

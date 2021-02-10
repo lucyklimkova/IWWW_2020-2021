@@ -21,19 +21,16 @@ function hlavicka($title, $description = "") {
     <script type="text/javascript" src="js/overeni.js"></script>
     <script type="text/javascript" src="../js/overeni.js"></script>
     <script type="text/javascript" src="../../js/overeni.js"></script>
-    <script src='tinymce/js/tinymce/tinymce.min.js'></script>
-    <script src='../tinymce/js/tinymce/tinymce.min.js'></script>
-    <script src='../../tinymce/js/tinymce/tinymce.min.js'></script>
-    <script>
-     tinymce.init({
-       selector: '#myTextarea',
-       width: 600,
-       height: 300
-     });
-    </script>
+        <script src='../tinymce/js/tinymce/tinymce.min.js'></script>
+        <script>
+            tinymce.init({
+                selector: '#myTextarea',
+                width: 600,
+                height: 300
+            });
+        </script>
 	</head>  
 	<body>
-    <header>
 	<nav>
       <div id="logo"></div>
       <div class="menu">
@@ -56,7 +53,6 @@ function hlavicka($title, $description = "") {
       </ul>
       </div>
 	</nav>
-    </header>
   <div id="centrovac">  
 <?php }
 function paticka() {

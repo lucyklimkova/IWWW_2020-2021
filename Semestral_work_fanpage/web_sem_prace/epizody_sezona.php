@@ -25,7 +25,7 @@ while($row = mysqli_fetch_assoc($result)) {
 ?>
     <li class="ep">
         <?php
-        echo "<img src='/Muj%20web/obrazky/epizody/$obrazek' class='img-box' alt='obrazek'>";
+        echo "<img src='obrazky/epizody/$obrazek' class='img-box' alt='obrazek'>";
         ?>
         <div class="epizody">
             <h3><?php echo $row["nazev"]; ?></h3>

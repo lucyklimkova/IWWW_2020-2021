@@ -71,7 +71,7 @@ $pripojeni->close();
 if (isset($_SESSION['usr_id'])) {
 ?>
 <br>
-<form name="form1" method="post" action="pridej_odpoved.php">
+<form name="form1" method="post" action="pridani/pridej_odpoved.php">
 <td>
 <table class="t1">
 <tr>

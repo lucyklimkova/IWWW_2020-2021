@@ -1,3 +1,11 @@
+<script src='../tinymce/js/tinymce/tinymce.min.js'></script>
+<script>
+    tinymce.init({
+        selector: '#myTextarea',
+        width: 600,
+        height: 300
+    });
+</script>
 <?php
 include "../headerAFooter.php";
 hlavicka("Novinka");

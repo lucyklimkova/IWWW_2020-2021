@@ -14,7 +14,7 @@ hlavicka("Úvod");
     První série byla oficiálně oznámena 10. května 2013 a premiéru měla 24. září 2013. O rok později se začala vysílat i druhá řada.
     Seriál získal v roce 2015 už svou třetí řadu a ta se začala vysílat 29. září 2015. V roce 2016 byla potvrzena i čtvrtá řada, kterou na svých obrazovkách můžeme sledovat od  20. září 2016.</p>
        <h4>Více o seriálu se můžete dozvědět v části Epizody, Postavy a Herci.</h4>
-    <h4>Pokud chcete přidat nějaký článek nebo se zapojit do naší dikuze, prosím registrujte se a nebo se přihlašte.</h4>
+    <h4>Pokud chcete přidat nějakou novinku nebo se zapojit do naší dikuze, tak se prosím registrujte anebo se přihlašte.</h4>
     
     <p>Trailer na první sérii:</p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/T3T-evQZiQo" style="border:0;" allowfullscreen></iframe> 

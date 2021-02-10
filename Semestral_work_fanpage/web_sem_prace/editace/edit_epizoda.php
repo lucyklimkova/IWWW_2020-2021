@@ -62,7 +62,7 @@ if (isset($_GET['submit'])) {
     <div id="obsah">
         <h2>Upravení epizody</h2>
         <div><br><br>
-            <span>Epizoda byla úspěšně upravena, můžete se vrátit zpět na přehled epizod: <a href="epizody.php">ZDE</a>.</span></div>
+            <span>Epizoda byla úspěšně upravena, můžete se vrátit zpět na přehled epizod: <a href="../epizody.php">ZDE</a>.</span></div>
     </div>
     <?php
 }

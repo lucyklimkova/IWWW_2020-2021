@@ -57,7 +57,7 @@ if (isset($_GET['submit'])) {
     <div id="obsah">
         <h2>Upravení herce</h2>
         <div><br><br>
-            <span>Herec byl úspěšně upraven, můžete se vrátit zpět na přehled herců: <a href="herci.php">ZDE</a>.</span></div>
+            <span>Herec byl úspěšně upraven, můžete se vrátit zpět na přehled herců: <a href="../herci.php">ZDE</a>.</span></div>
     </div>
     <?php
 }

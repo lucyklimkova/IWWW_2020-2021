@@ -53,7 +53,7 @@ if (isset($_GET['submit'])) {
     <div id="obsah">
         <h2>Upravení novinky</h2>
         <div><br><br>
-            <span>Novinka byla úspěšně upravena, můžete se na ni podívat zde:<a href="detail_novinka.php?id_novinky=<?php echo $id_novinky ?>">Detail novinky</a></span></div>
+            <span>Novinka byla úspěšně upravena, můžete se na ni podívat zde: <a href="../detail_novinka.php?id_novinky=<?php echo $id_novinky ?>">Detail novinky</a></span></div>
     </div>
 <?php
 }

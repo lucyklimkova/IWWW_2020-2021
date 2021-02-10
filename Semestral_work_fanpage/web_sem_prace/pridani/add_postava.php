@@ -1,11 +1,11 @@
 <?php
-include "headerAFooter.php";
+include "../headerAFooter.php";
 hlavicka("Přidat postavu");
 
 if (isset($_POST['submit'])){
 
-    $pripojeni = Pripojeni::pripojeniDatabaze();
-    $error = false;
+   $pripojeni = Pripojeni::pripojeniDatabaze();
+   $error = false;
    $photo = vstup($_FILES['photo']['name']);
    $target = basename( $_FILES['photo']['name']);
    $temp = explode(".", $_FILES["photo"]["name"]);
@@ -30,7 +30,7 @@ $sql = "INSERT INTO postavy(jmeno, herec, prislusnost, obrazek, strucny_popis, i
 
 $vysledek = $pripojeni->query($sql);
 
-if(move_uploaded_file($_FILES["photo"]["tmp_name"], "../obrazky/epizody/".$newfilename)) {
+if(move_uploaded_file($_FILES["photo"]["tmp_name"], "../obrazky/postavy/".$newfilename)) {
 $pridano = "Obrázek s názvem ".$newfilename. " byl úspěšně nahrán do adresáře";
 } 
 else {

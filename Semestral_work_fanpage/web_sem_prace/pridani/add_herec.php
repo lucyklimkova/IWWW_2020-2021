@@ -29,7 +29,7 @@ $sql = "INSERT INTO herci(jmeno, postava, obrazek, strucny_popis, id_uziv)
 
 $vysledek = $pripojeni->query($sql);
 
-if(move_uploaded_file($_FILES["photo"]["tmp_name"], "../obrazky/epizody/" . $newfilename)) {
+if(move_uploaded_file($_FILES["photo"]["tmp_name"], "../obrazky/herci/" . $newfilename)) {
 $pridano = "Obrázek s názvem ".$newfilename. " byl úspěšně nahrán do adresáře";
 } 
 else {
